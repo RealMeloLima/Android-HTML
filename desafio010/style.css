@@ -1,0 +1,54 @@
+body{
+    @font-face {
+        font-family: 'android';
+        src: url(idroid.otf) format(opentype);
+    }
+background-color: #7ce9bc;
+}
+header{
+    color: white;
+    background-image: linear-gradient(to right,#58c99a, #19c77f ,#0c8050 );
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 466);
+    padding: 37px;
+    margin: -20px;
+}
+.links{
+    text-align: left;
+    padding: 0px;
+    border: 0px;
+    margin: -24px;
+    word-spacing: 1em
+}
+main{
+    background-color: white;
+    margin: 0px 120px 120px 120px;
+    
+}
+.titulo{
+    margin: 20px 0px 5px 4px;
+    color: #108b58;
+}
+iframe{
+    display: block;
+    margin: auto
+}
+img{
+    display: block;
+    margin: auto;
+}
+.responsive {
+    max-width: 100%;
+    height: auto;
+  }
+footer{
+    text-align: center;
+    padding: 15px;
+    margin: -20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.863);
+}
+.footer{
+    color: white;
+    text-decoration: underline;
+}
